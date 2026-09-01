@@ -1,0 +1,77 @@
+examples:
+  - id: cover-image-set-from-material
+    title:
+      zh: 从选题和资料产出整套小红书图文
+      en: Full Xiaohongshu Image Set From Topic and Material
+    description:
+      zh: 用选题/文章/产品资料和真实截图，产出统一主题的封面+内页图文组
+      en: Produce a cover plus inner-page set in one registered theme from topic, article and screenshot material
+    prompt:
+      zh: |-
+        请用小红书视觉系统制作一套图文：
+
+        选题/文章/产品资料：{{文档路径}}
+        真实截图：{{截图路径（可多个）}}
+        品牌资产：{{Logo 路径（如已提供）}}
+        页数与画幅：{{页数}} 页，1080×1440
+        交付目录：{{输出根目录}}
+
+        先读主题索引选定一个注册主题并给出分镜表（每页一个主职、一句话信息、标题、证据与截图角色）给我确认；确认后再组页、渲染 PNG、跑视觉校验脚本并附缩略图拼版，不要混用主题或伪造截图，缺图按占位流程标注。
+      en: |-
+        Produce a Xiaohongshu image set with the visual system:
+
+        Topic/article/material: {{document paths}}
+        Real screenshots: {{screenshot paths}}
+        Brand assets: {{logo path if provided}}
+        Count & canvas: {{n}} pages at 1080×1440
+        Output: {{output root folder}}
+
+        Select one registered theme via the theme index, then share a storyboard (one job, one message, headline, evidence and screenshot role per page) for my approval; only after approval assemble pages, render PNGs, run the validation script and deliver a thumbnail montage. Never mix themes or fabricate screenshots; mark missing images as placeholders.
+
+  - id: product-demo-video-cover
+    title:
+      zh: 3:4 产品演示视频封面
+      en: 3:4 Product-Demo Video Cover
+    description:
+      zh: 用封面-视频演示模板快速产出 3:4 产品演示视频封面
+      en: Produce a 3:4 product-demo video cover from the dedicated video-cover template
+    prompt:
+      zh: |-
+        请为产品演示视频制作小红书封面：
+
+        产品名称与一句话卖点：{{产品与卖点}}
+        真实证明截图：{{截图路径}}
+        交付目录：{{输出根目录}}
+
+        直接从 封面-视频演示.html 模板起做，替换标题与真实证明图，按 1080×1440（3:4）渲染导出 PNG 并跑视觉校验；不引入单独的视频内页流程，不伪造界面。
+      en: |-
+        Create a Xiaohongshu cover for a product demo video:
+
+        Product name & one-line value: {{product and selling point}}
+        Real proof screenshot: {{screenshot path}}
+        Output: {{output root folder}}
+
+        Start from the 封面-视频演示.html template, replace the title and real proof image, render at 1080×1440 (3:4), export PNG and run visual validation; do not introduce a separate video-inner-page workflow or fabricate UI.
+
+  - id: audit-existing-visuals
+    title:
+      zh: 审计与校验已有视觉产出
+      en: Audit and Validate Existing Visuals
+    description:
+      zh: 按组件、文案、设计与主题规则审计已有 HTML/PNG 并给出修改项
+      en: Audit existing HTML/PNG against component, copy, design and theme rules with a revision list
+    prompt:
+      zh: |-
+        请审计这批小红书视觉产出：
+
+        产出目录：{{HTML/PNG 所在目录}}
+        注册主题：{{octopus-blue / hr-light-tech（如已知）}}
+
+        逐页核对：一秒内能否读懂主信息、缩略图焦点、截图与相邻文案的对应、蓝区占比是否超主题上限、Logo 槽位、资产可移植性；先跑 scripts/validate_visual_template.py，再按视觉审计清单给出「通过/需改」明细和修改方案，一次只动一个系统变量出修订版对比。
+      en: |-
+        Audit this batch of Xiaohongshu visuals:
+
+        Output folder: {{folder with HTML/PNG}}
+        Registered theme: {{octopus-blue / hr-light-tech if known}}
+
+        Check per page: one-second readability, thumbnail focal point, screenshot-to-claim correspondence, blue-area limits, logo slot and asset portability. Run scripts/validate_visual_template.py first, then give a pass/revise list per the visual-audit checklist and revise one system variable at a time for comparison.

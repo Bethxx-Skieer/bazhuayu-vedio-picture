@@ -1,0 +1,4 @@
+interface:
+  display_name: "小红书视觉生产系统"
+  short_description: "用固定模板生成小红书封面、内容页、证据图和3:4视频封面"
+  default_prompt: "使用 $xhs-visual-template-system 根据内容选择合适的小红书模板，生成 1080×1440 HTML、PNG 或3:4产品演示视频封面。"

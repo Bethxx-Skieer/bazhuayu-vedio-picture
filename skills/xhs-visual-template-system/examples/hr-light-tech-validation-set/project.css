@@ -1,0 +1,36 @@
+@import url("theme.css");
+
+.cover-anchor { min-height: 500px; }
+.cover-anchor .mini-node { min-height: 220px; }
+.cover-anchor .result-band { margin-top: 32px; }
+.small-support .headline-block .support { max-width: 820px; }
+.proof-frame { min-height: 0; }
+.proof-frame .evidence-media { height: 475px; }
+.proof-shot { object-position: center 24%; }
+.privacy-mask {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  padding: 9px 13px;
+  border-radius: 10px;
+  color: var(--muted);
+  background: rgba(247, 249, 253, .96);
+  box-shadow: 0 4px 14px rgba(20, 33, 61, .08);
+  font-size: 16px;
+  font-weight: 700;
+}
+.proof-context {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-top: 24px;
+}
+.proof-context div {
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: rgba(255,255,255,.88);
+  color: var(--text);
+  font-size: 22px;
+  font-weight: 700;
+}
