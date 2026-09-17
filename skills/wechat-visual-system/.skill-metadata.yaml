@@ -1,0 +1,83 @@
+examples:
+  - id: wechat-cover-set-from-topic
+    title:
+      zh: 从主题与真实素材制作微信公众号视觉套图
+      en: WeChat Visual Set From Topic and Real Assets
+    description:
+      zh: 根据主题、文案与真实截图生成头条、博客封面、次条和文章头图
+      en: Produce a consistent WeChat cover set from a topic, copy and real screenshots
+    prompt:
+      zh: |-
+        请用微信视觉生产系统制作一套公众号视觉：
+
+        主题/文章/文案：{{主题或文档路径}}
+        真实截图或照片：{{素材路径（可多个）}}
+        图片类型：{{头条封面 / 博客封面 / 次条图 / 文章头图 / 完整套图}}
+        配色偏好：{{注册主题；未指定则用默认主题}}
+        交付目录：{{输出根目录}}
+
+        先从文章推断封面类型，推荐标题、真实素材、注册主题和用途/尺寸清单，确认一次后自动完成约定套图。默认输出头条封面1800×766、正文头图1800×766、博客封面900×540、方形图766×766及头条加方形拼接图2566×766。头条封面精简内容并为平台标题留空间，正文头图保留更丰富信息且不预留平台标题区；即使尺寸相同也分别排版。1920×1080正文横图按需追加。保持素材比例、中文使用HTML/CSS，并检查实际标题叠加效果、缩略图和可移植性。
+      en: |-
+        Use the WeChat visual system to produce a WeChat Official Account visual set:
+
+        Topic/article/copy: {{topic or document path}}
+        Real screenshots or photos: {{asset paths}}
+        Deliverable: {{main cover / blog cover / secondary cover / article hero / full set}}
+        Theme: {{registered theme, or default}}
+        Output: {{output root folder}}
+
+        Infer one visual direction from the article and confirm the copy, assets, theme and purpose/size list once. Then export the agreed set: main cover 1800×766, article header 1800×766, blog 900×540, square 766×766 and main-plus-square 2566×766. Independently compose the same-sized main cover with platform-title space and the fuller article header without that reservation. Add 1920×1080 only when requested. Preserve real assets, use HTML/CSS text and check title-overlay previews, thumbnails and portability.
+
+  - id: customer-case-person-cover
+    title:
+      zh: 客户案例人物型公众号封面
+      en: Customer-Case Person Cover
+    description:
+      zh: 用真实人物现场图制作标杆客户案例头条封面及配套尺寸
+      en: Create a customer-case cover from a real person-in-context photo
+    prompt:
+      zh: |-
+        请制作“标杆客户案例”人物型公众号封面：
+
+        主标题：{{标题}}
+        真实人物现场图：{{照片路径}}
+        联合 Logo：{{Logo 路径（如有）}}
+        交付目录：{{输出根目录}}
+
+        从客户案例人物母板开始，根据人物视线或手势方向安排文案；现场图满高并保持真实比例，文案组在安全区域内居中且左对齐。不要翻转带屏幕文字或 Logo 的照片，不生成替代人物。头条封面精简辅助信息并避开平台标题区；正文头图可保留已确认的联合Logo、人物介绍及副标题。输出约定用途和尺寸，并完成平台标题叠加、可移植性和缩略图检查。
+      en: |-
+        Create a customer-case WeChat cover:
+
+        Headline: {{headline}}
+        Real person-in-context photo: {{photo path}}
+        Co-brand logos: {{logo paths if any}}
+        Output: {{output root folder}}
+
+        Start from the customer-case person starter and place the copy according to the subject's gaze or gesture. Keep the real scene full-height and proportional, center the copy group while keeping its text left-aligned, never flip readable screens or logos, never generate a replacement person, and run portability plus thumbnail checks.
+
+  - id: wechat-screenshot-collage-or-gif
+    title:
+      zh: 微信正文多截图配图或 GIF
+      en: WeChat Screenshot Collage or GIF
+    description:
+      zh: 将同一业务场景的 2–4 张真实截图整合为静态正文配图或循环 GIF
+      en: Combine 2–4 real screenshots from one business scene into a static illustration or looping GIF
+    prompt:
+      zh: |-
+        请把这些真实截图制作成微信公众号正文配图：
+
+        截图：{{2–4 张截图路径}}
+        卡片标签：{{可选；未提供则根据截图事实提炼}}
+        输出形式：{{静态拼图 / 循环 GIF}}
+        交付目录：{{输出根目录}}
+
+        先区分参考图与实际输出证据，只组合属于同一业务场景的截图。保持每张截图比例，默认使用浅蓝说明型主题，只保留截图卡片与一句底部说明；不要添加封面式标题、箭头或装饰图。输出 1920×1080 母版和紧凑裁切版；若为 GIF，统一各帧尺寸并保留静态 PNG。
+      en: |-
+        Create a WeChat article-body screenshot illustration:
+
+        Screenshots: {{2–4 screenshot paths}}
+        Card labels: {{optional; otherwise infer factual labels}}
+        Output: {{static collage / looping GIF}}
+        Delivery folder: {{output root folder}}
+
+        Separate reference images from actual evidence and combine only screenshots from the same business scene. Preserve aspect ratios, use the light explanatory theme by default, keep only screenshot cards plus one bottom explanation, and omit cover-style headlines, arrows and decorative diagrams. Export a 1920×1080 master and compact crop; for GIF output, normalize frame sizes and retain the static PNGs.

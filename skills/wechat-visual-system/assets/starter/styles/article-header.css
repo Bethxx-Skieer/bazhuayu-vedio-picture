@@ -1,0 +1,33 @@
+html, body, .article-header { width: 1800px; height: 766px; }
+.header-copy {
+  position: absolute;
+  inset: 68px 112px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.eyebrow {
+  margin: 0 0 30px;
+  font-size: 34px;
+  line-height: 1.3;
+  letter-spacing: 4px;
+  color: var(--text-secondary);
+}
+.header-copy h1, .header-theme {
+  width: 100%;
+  margin: 0;
+  font-size: 116px;
+  line-height: 1.42;
+  letter-spacing: 5px;
+  font-weight: 780;
+  white-space: nowrap;
+}
+.header-context {
+  max-width: 100%;
+  margin: 34px 0 0;
+  font-size: 40px;
+  line-height: 1.4;
+  font-weight: 430;
+  color: var(--text-secondary);
+}

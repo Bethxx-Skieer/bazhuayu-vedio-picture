@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="766" viewBox="0 0 1160 766" role="img" aria-labelledby="title desc">
+  <title id="title">客户现场照片占位图</title>
+  <desc id="desc">用于客户案例人物封面母板的方向示意，实际生产时替换为用户提供的真实照片。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1731"/>
+      <stop offset="0.55" stop-color="#17295c"/>
+      <stop offset="1" stop-color="#3c245d"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2454b2"/>
+      <stop offset="1" stop-color="#7b4ac8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1160" height="766" fill="url(#bg)"/>
+  <g fill="none" stroke="#8bb6ff" stroke-opacity=".45" stroke-width="3">
+    <rect x="44" y="56" width="1072" height="112" rx="18"/>
+    <rect x="350" y="202" width="360" height="232" rx="20"/>
+    <rect x="736" y="202" width="380" height="232" rx="20"/>
+    <rect x="350" y="460" width="766" height="250" rx="20"/>
+  </g>
+  <rect x="376" y="228" width="308" height="180" rx="16" fill="url(#panel)" opacity=".74"/>
+  <rect x="762" y="228" width="328" height="180" rx="16" fill="#133a72" opacity=".78"/>
+  <g fill="#55d4ff" opacity=".78">
+    <rect x="790" y="256" width="260" height="12" rx="6"/>
+    <rect x="790" y="286" width="220" height="12" rx="6"/>
+    <rect x="790" y="316" width="278" height="12" rx="6"/>
+    <rect x="790" y="346" width="238" height="12" rx="6"/>
+  </g>
+  <g fill="#f2f6ff">
+    <circle cx="166" cy="255" r="58"/>
+    <path d="M84 698c4-157 19-302 82-353 62 52 82 196 90 353z" opacity=".92"/>
+    <path d="M201 371c84 21 140 46 233 89l-18 38c-102-34-168-52-249-70z" opacity=".92"/>
+  </g>
+  <circle cx="431" cy="478" r="14" fill="#f06e68"/>
+  <text x="64" y="104" fill="#e9f2ff" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="30" font-weight="650">真实客户现场照片占位</text>
+  <text x="64" y="144" fill="#a8c8ff" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="22">人物视线或手势朝向右侧文案区</text>
+</svg>

@@ -1,0 +1,4 @@
+interface:
+  display_name: "微信视觉系统"
+  short_description: "从文章推断视觉方向，确认后分别制作公众号封面、正文头图和配套尺寸"
+  default_prompt: "使用 $wechat-visual-system 分析这篇文章并推荐视觉方案，确认后输出头条封面、正文头图、博客封面、方形图和拼接图；头条封面与正文头图同为1800×766，按不同用途独立排版。"

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1920, initial-scale=1">
+  <title>文章内部多截图配图</title>
+  <link rel="stylesheet" href="styles/common.css">
+  <link rel="stylesheet" href="styles/themes.css">
+  <link rel="stylesheet" href="styles/article-screenshot-collage.css">
+</head>
+<body>
+  <!-- Set data-count to 2, 3, or 4 and add/remove cards to match. -->
+  <main class="canvas screenshot-collage" data-theme="light-blue" data-count="3">
+    <section class="screenshot-grid" aria-label="同一业务场景的系统截图">
+      <figure class="screenshot-card">
+        <div class="media-window"><img src="assets/product-shot.svg" alt="系统截图一"></div>
+        <figcaption>系统一</figcaption>
+      </figure>
+      <figure class="screenshot-card">
+        <div class="media-window"><img src="assets/product-shot.svg" alt="系统截图二"></div>
+        <figcaption>系统二</figcaption>
+      </figure>
+      <figure class="screenshot-card">
+        <div class="media-window"><img src="assets/product-shot.svg" alt="系统截图三"></div>
+        <figcaption>系统三</figcaption>
+      </figure>
+    </section>
+
+    <section class="explanation" aria-label="场景说明">
+      <p>业务数据分散在<strong>多个系统中</strong>，工作人员需要逐一登录、下载和核对。</p>
+    </section>
+  </main>
+</body>
+</html>

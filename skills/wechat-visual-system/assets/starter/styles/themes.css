@@ -1,0 +1,70 @@
+[data-theme="dark-spectrum"] {
+  --canvas-background: #000;
+  --title-fill: linear-gradient(90deg, #2e80ee 31%, #826db3 51%, #f06e68 69%);
+  --text-primary: #f5f7fb;
+  --text-secondary: #e6e8ee;
+  --emphasis-color: #3685e9;
+  --label-text: #fff;
+  --screenshot-border: rgba(255,255,255,.72);
+  --screenshot-shadow: 0 24px 70px rgba(55,92,190,.22);
+}
+[data-theme="dark-blue-purple"] {
+  --canvas-background: linear-gradient(120deg, #02050c 0%, #060a18 54%, #090a21 100%);
+  --title-fill: linear-gradient(90deg, #4da7ff 26%, #6f91ff 49%, #a578ff 74%);
+  --text-primary: #eef2ff;
+  --text-secondary: #dfe6f7;
+  --emphasis-color: #8b82ff;
+  --label-text: #fff;
+  --screenshot-border: rgba(130,142,255,.76);
+  --screenshot-shadow: 0 24px 78px rgba(91,75,210,.30);
+}
+[data-theme="dark-blue-aqua"] {
+  --canvas-background: #000;
+  --title-fill: linear-gradient(90deg, #148cff 18%, #12cbed 50%, #43db9d 82%);
+  --text-primary: #efffff;
+  --text-secondary: #def9fb;
+  --emphasis-color: #35d7ac;
+  --label-text: #fff;
+  --screenshot-border: rgba(64,220,194,.78);
+  --screenshot-shadow: 0 24px 78px rgba(20,190,191,.28);
+}
+[data-theme="light-blue"] {
+  --canvas-background: linear-gradient(135deg, #cfe1ff 0%, #eaf4ff 55%, #d9ebff 100%);
+  --title-fill: linear-gradient(90deg, #102457 28%, #164fbd 50%, #1267ef 72%);
+  --text-primary: #172a55;
+  --text-secondary: #42577f;
+  --emphasis-color: #0865f5;
+  --label-text: #fff;
+  --screenshot-border: rgba(105,145,205,.62);
+  --screenshot-shadow: 0 24px 70px rgba(41,87,158,.20);
+}
+[data-theme="deep-blue"] {
+  --canvas-background: linear-gradient(105deg, #316bd3 0%, #3479df 48%, #58a2f3 100%);
+  --title-fill: linear-gradient(90deg, #fff 28%, #e8f2ff 50%, #cbe3ff 72%);
+  --text-primary: #f5f9ff;
+  --text-secondary: #e7f0ff;
+  --emphasis-color: #ffed6b;
+  --label-text: #17336e;
+  --screenshot-border: rgba(255,255,255,.74);
+  --screenshot-shadow: 0 24px 72px rgba(16,58,137,.28);
+}
+[data-theme="background-blue-purple"] {
+  --canvas-background: linear-gradient(105deg, #318ce9 0%, #5f72e8 52%, #9b69df 100%);
+  --title-fill: linear-gradient(90deg, #fff 20%, #f2f5ff 52%, #e9e4ff 82%);
+  --text-primary: #f7f8ff;
+  --text-secondary: #f1f3ff;
+  --emphasis-color: #ffed72;
+  --label-text: #26316d;
+  --screenshot-border: rgba(255,255,255,.78);
+  --screenshot-shadow: 0 24px 72px rgba(58,44,155,.28);
+}
+[data-theme="background-blue-aqua"] {
+  --canvas-background: linear-gradient(105deg, #168cec 0%, #10bdd2 50%, #45d59c 100%);
+  --title-fill: linear-gradient(90deg, #fff 20%, #efffff 52%, #e7fff3 82%);
+  --text-primary: #f6ffff;
+  --text-secondary: #eafffc;
+  --emphasis-color: #ffed72;
+  --label-text: #07555c;
+  --screenshot-border: rgba(255,255,255,.78);
+  --screenshot-shadow: 0 24px 72px rgba(15,116,137,.27);
+}

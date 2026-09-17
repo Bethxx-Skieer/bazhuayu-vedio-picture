@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1800, initial-scale=1">
+<title>微信头条封面</title>
+<link rel="stylesheet" href="styles/common.css">
+<link rel="stylesheet" href="styles/themes.css">
+<style>
+html, body, .canvas { width: 1800px; height: 766px; }
+.copy { position: absolute; left: 138px; top: 240px; width: 520px; z-index: 2; }
+.eyebrow { margin: 0 0 24px; font-size: 64px; line-height: 1; font-weight: 650; }
+h1 { margin: 0 0 24px; font-size: 104px; line-height: 1.06; font-weight: 760; letter-spacing: -2px; }
+.label { display: inline-flex; padding: 14px 28px; border-radius: 24px; background: var(--title-fill); color: #fff; font-size: 38px; }
+.screenshot-frame { position: absolute; left: 700px; top: 48px; width: 1100px; height: 718px; border-radius: 16px 0 0 0; }
+.screenshot-frame img { width: 1182px; transform: translateX(-82px); }
+</style>
+</head>
+<body>
+<main class="canvas" data-theme="dark-spectrum">
+  <section class="copy">
+    <p class="eyebrow gradient-text">41+ Amazon</p>
+    <h1>应用上新</h1>
+    <span class="label">产品名称</span>
+  </section>
+  <figure class="screenshot-frame">
+    <img src="assets/product-shot.svg" alt="产品界面截图">
+  </figure>
+</main>
+</body>
+</html>

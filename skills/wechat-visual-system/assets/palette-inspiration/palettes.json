@@ -1,0 +1,293 @@
+{
+  "version": 2,
+  "updated": "2026-09-12",
+  "status": "inspiration_only",
+  "notes": "来自用户提供的三张配色参考截图。12组色号经原图文字复核，另2组错误标注已替换为截图取样近似值，并保留坐标证据。截图像素不等于原始设计端点。统一135度渐变仅用于比较；正式主题需另行验证。",
+  "sources": [
+    {
+      "id": 1,
+      "path": null,
+      "origin": "用户提供截图（原图未公开）",
+      "author": "未提供",
+      "url": null
+    },
+    {
+      "id": 2,
+      "path": null,
+      "origin": "用户提供截图（原图未公开）",
+      "author": "未提供",
+      "url": null
+    },
+    {
+      "id": 3,
+      "path": null,
+      "origin": "用户提供截图（原图未公开）",
+      "author": "未提供",
+      "url": null
+    }
+  ],
+  "palettes": [
+    {
+      "id": "midnight-mirage",
+      "name": "午夜幻影",
+      "source": 1,
+      "position": "01",
+      "colors": [
+        "#4A53FF",
+        "#ACFFFF"
+      ],
+      "family": "蓝紫与冰青",
+      "suggestedUse": "渐变标题 人物卡",
+      "note": "来自图中色号；预览不复刻多层光效",
+      "status": "candidate",
+      "colorEvidence": "reference-label",
+      "previewAngle": 135,
+      "previewAngleEvidence": "editorial-preview",
+      "number": 1
+    },
+    {
+      "id": "twilight-haze",
+      "name": "暮霞绮梦",
+      "source": 1,
+      "position": "02",
+      "colors": [
+        "#FF7BE1",
+        "#FCE3BF"
+      ],
+      "family": "粉色与奶杏",
+      "suggestedUse": "背景 卡片",
+      "note": "浅色背景建议搭配深色文字",
+      "status": "candidate",
+      "colorEvidence": "reference-label",
+      "previewAngle": 135,
+      "previewAngleEvidence": "editorial-preview",
+      "number": 2
+    },
+    {
+      "id": "mist-isle",
+      "name": "雾屿青岚",
+      "source": 1,
+      "position": "03",
+      "colors": [
+        "#72CDFF",
+        "#BFFFCC"
+      ],
+      "family": "天蓝与薄荷",
+      "suggestedUse": "正文背景 截图外框",
+      "note": "浅色背景建议搭配深蓝文字",
+      "status": "candidate",
+      "colorEvidence": "reference-label",
+      "previewAngle": 135,
+      "previewAngleEvidence": "editorial-preview",
+      "number": 3
+    },
+    {
+      "id": "serene-horizon",
+      "name": "赤霞绯梦",
+      "source": 1,
+      "position": "04",
+      "colors": [
+        "#FF7374",
+        "#FDB5E3"
+      ],
+      "family": "珊瑚与柔粉",
+      "suggestedUse": "活动封面 强调卡",
+      "note": "白字在浅粉端需另行检查",
+      "status": "candidate",
+      "colorEvidence": "reference-label",
+      "previewAngle": 135,
+      "previewAngleEvidence": "editorial-preview",
+      "number": 4
+    },
+    {
+      "id": "crimson-dream",
+      "name": "星河垂落",
+      "source": 1,
+      "position": "05",
+      "colors": [
+        "#AB74FF",
+        "#67EAF9"
+      ],
+      "family": "紫色与亮青",
+      "suggestedUse": "渐变标题 人物卡",
+      "note": "英文名称按参考图保留为来源信息",
+      "status": "candidate",
+      "colorEvidence": "reference-label",
+      "previewAngle": 135,
+      "previewAngleEvidence": "editorial-preview",
+      "number": 5
+    },
+    {
+      "id": "aurora-gold",
+      "name": "暖阳熔金",
+      "source": 1,
+      "position": "06",
+      "colors": [
+        "#FF8867",
+        "#FFFF96"
+      ],
+      "family": "橙色与浅黄",
+      "suggestedUse": "价值强调 背景",
+      "note": "浅黄端推荐深色正文",
+      "status": "candidate",
+      "colorEvidence": "reference-label",
+      "previewAngle": 135,
+      "previewAngleEvidence": "editorial-preview",
+      "number": 6
+    },
+    {
+      "id": "emerald-glow",
+      "name": "青岚漫野",
+      "source": 1,
+      "position": "07",
+      "colors": ["#37EC64", "#DBFB9C"],
+      "family": "鲜绿与黄绿",
+      "suggestedUse": "活力背景",
+      "note": "原图误用了橙黄色号。现取鲜绿及浅黄绿代表色重建近似渐变；原图还叠加了浅绿光晕，不是简单双色线性渐变。色值来自截图，并非原始设计端点。",
+      "status": "candidate",
+      "colorEvidence": "sampled",
+      "rejectedLabel": ["#FF8867", "#FFFF96"],
+      "sampling": {
+        "imageSize": [948, 1038],
+        "coordinateOrigin": "top-left, zero-based",
+        "method": "9x9区域逐通道中位数；避开文字、装饰线与圆角边缘",
+        "samples": [{"center": [245, 725], "color": "#37EC64"}, {"center": [260, 978], "color": "#DBFB9C"}],
+        "verifiedOn": "2026-09-12"
+      },
+      "previewAngle": 135,
+      "previewAngleEvidence": "editorial-preview",
+      "number": 7
+    },
+    {
+      "id": "ice-cyan",
+      "name": "冰屿青澜",
+      "source": 1,
+      "position": "08",
+      "colors": ["#2EFEDF", "#ABFC9A"],
+      "family": "冰青与薄荷绿",
+      "suggestedUse": "清爽背景",
+      "note": "原图误用了橙黄色号。现取亮青及嫩绿代表色重建近似渐变；原图还叠加了浅薄荷光晕，不是简单双色线性渐变。色值来自截图，并非原始设计端点。",
+      "status": "candidate",
+      "colorEvidence": "sampled",
+      "rejectedLabel": ["#FF8867", "#FFFF96"],
+      "sampling": {
+        "imageSize": [948, 1038],
+        "coordinateOrigin": "top-left, zero-based",
+        "method": "9x9区域逐通道中位数；避开文字、装饰线与圆角边缘",
+        "samples": [{"center": [555, 725], "color": "#2EFEDF"}, {"center": [560, 978], "color": "#ABFC9A"}],
+        "verifiedOn": "2026-09-12"
+      },
+      "previewAngle": 135,
+      "previewAngleEvidence": "editorial-preview",
+      "number": 8
+    },
+    {
+      "id": "mint-lime",
+      "name": "薄荷青柠",
+      "source": 2,
+      "position": "左上",
+      "colors": [
+        "#6DF6FB",
+        "#ECFFC2"
+      ],
+      "family": "亮青与浅青柠",
+      "suggestedUse": "正文背景 卡片",
+      "note": "中文名为本次整理命名",
+      "status": "candidate",
+      "colorEvidence": "reference-label",
+      "previewAngle": 135,
+      "previewAngleEvidence": "editorial-preview",
+      "number": 9
+    },
+    {
+      "id": "periwinkle-pink",
+      "name": "长春花粉",
+      "source": 2,
+      "position": "右上",
+      "colors": [
+        "#6D87FB",
+        "#E7C2FF"
+      ],
+      "family": "蓝紫与淡粉紫",
+      "suggestedUse": "渐变标题 背景",
+      "note": "中文名为本次整理命名",
+      "status": "candidate",
+      "colorEvidence": "reference-label",
+      "previewAngle": 135,
+      "previewAngleEvidence": "editorial-preview",
+      "number": 10
+    },
+    {
+      "id": "lemon-jade",
+      "name": "柠檬翡翠",
+      "source": 2,
+      "position": "下方",
+      "colors": [
+        "#FFF176",
+        "#67F7A3"
+      ],
+      "family": "柠檬黄与亮绿",
+      "suggestedUse": "强调卡 活动背景",
+      "note": "中文名为本次整理命名",
+      "status": "candidate",
+      "colorEvidence": "reference-label",
+      "previewAngle": 135,
+      "previewAngleEvidence": "editorial-preview",
+      "number": 11
+    },
+    {
+      "id": "ice-mint",
+      "name": "冰透薄荷",
+      "source": 3,
+      "position": "左上",
+      "colors": [
+        "#BEFDF7",
+        "#8AF9EC"
+      ],
+      "family": "冰青与薄荷青",
+      "suggestedUse": "正文背景 截图外框",
+      "note": "中文名为本次整理命名",
+      "status": "candidate",
+      "colorEvidence": "reference-label",
+      "previewAngle": 135,
+      "previewAngleEvidence": "editorial-preview",
+      "number": 12
+    },
+    {
+      "id": "soft-periwinkle",
+      "name": "柔雾蓝紫",
+      "source": 3,
+      "position": "右上",
+      "colors": [
+        "#CBCDFE",
+        "#9B9EFC"
+      ],
+      "family": "淡紫与长春花蓝",
+      "suggestedUse": "卡片 正文背景",
+      "note": "中文名为本次整理命名",
+      "status": "candidate",
+      "colorEvidence": "reference-label",
+      "previewAngle": 135,
+      "previewAngleEvidence": "editorial-preview",
+      "number": 13
+    },
+    {
+      "id": "spring-mint",
+      "name": "春日薄荷",
+      "source": 3,
+      "position": "下方",
+      "colors": [
+        "#B1FCCC",
+        "#79F89D"
+      ],
+      "family": "浅薄荷与嫩绿",
+      "suggestedUse": "正文背景 结果卡",
+      "note": "中文名为本次整理命名",
+      "status": "candidate",
+      "colorEvidence": "reference-label",
+      "previewAngle": 135,
+      "previewAngleEvidence": "editorial-preview",
+      "number": 14
+    }
+  ]
+}

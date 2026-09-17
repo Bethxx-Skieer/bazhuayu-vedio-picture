@@ -1,0 +1,59 @@
+html, body, .canvas { width: 1800px; height: 766px; }
+.copy {
+  position: absolute;
+  left: 138px;
+  top: 220px;
+  width: 540px;
+  z-index: 2;
+}
+.platform-title-scrim {
+  position: absolute;
+  z-index: 4;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 160px;
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 10, 28, 0) 0%,
+      rgba(0, 10, 28, .10) 24%,
+      rgba(0, 10, 28, .27) 62%,
+      rgba(0, 10, 28, .44) 100%
+    );
+  pointer-events: none;
+}
+.eyebrow {
+  margin: 0 0 24px;
+  font-size: 54px;
+  line-height: 1.08;
+  font-weight: 650;
+}
+h1 {
+  margin: 0 0 24px;
+  font-size: 92px;
+  line-height: 1.1;
+  font-weight: 760;
+  letter-spacing: -2px;
+}
+.label {
+  display: inline-flex;
+  padding: 14px 28px;
+  border-radius: 24px;
+  background: var(--title-fill);
+  color: var(--label-text, #fff);
+  font-size: 34px;
+  line-height: 1;
+}
+.screenshot-frame {
+  position: absolute;
+  left: 700px;
+  top: 48px;
+  width: 1100px;
+  height: 718px;
+  border-radius: 16px 0 0 0;
+}
+.screenshot-frame img {
+  width: 1182px;
+  transform: translateX(-82px);
+}

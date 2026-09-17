@@ -7,6 +7,7 @@
 | 技能 | 说明 | 兼容端 |
 | --- | --- | --- |
 | [skills/xhs-visual-template-system](skills/xhs-visual-template-system/) | 1080×1440 小红书封面、图文内容页、截图证据页、痛点对比页、功能合集与 3:4 产品演示视频封面的模板生产系统（octopus-blue / hr-light-tech 两套注册主题） | 千问办公 + WorkBuddy 双端 |
+| [skills/wechat-visual-system](skills/wechat-visual-system/) | 微信公众号头条封面、正文头图、博客封面、客户案例人物封面、次条图与截图拼图/GIF 的视觉系统（7 套注册主题） | 千问办公 + WorkBuddy 双端 |
 
 ## 安装
 
